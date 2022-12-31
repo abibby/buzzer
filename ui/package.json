@@ -1,0 +1,22 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "vite build --watch",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "vite": "^3.2.3"
+  },
+  "dependencies": {
+    "@zwzn/spicy": "^1.0.1",
+    "preact": "^10.11.2",
+    "preact-router": "^4.1.0"
+  }
+}

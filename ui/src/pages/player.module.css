@@ -1,0 +1,70 @@
+.player {
+    text-align: center;
+}
+.room {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 5vmin;
+    font-weight: bold;
+}
+
+.activePlayerPopup {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    color: white;
+    font-size: 15vmin;
+}
+
+.activePlayer {
+    margin-top: 10vmin;
+}
+
+.buzz {
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: #b50b0b;
+    color: white;
+    width: 90vmin;
+    height: 90vmin;
+    border-radius: 50%;
+    font-size: 20vmin;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buzz:disabled {
+    background-color: #b55b5b;
+}
+
+.reset {
+    display: inline-block;
+    outline: none;
+    border: none;
+    background-color: #0b68b5;
+    color: white;
+    width: 50vmin;
+    height: 30vmin;
+    border-radius: 1vmin;
+    font-size: 7vmin;
+    font-weight: bold;
+    margin-top: 70vmin;
+    cursor: pointer;
+}
+.reset:disabled {
+    background-color: #5b8cb5;
+}
+
+.home {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 5vmin;
+    font-weight: bold;
+    z-index: 100;
+}
